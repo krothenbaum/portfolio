@@ -250,25 +250,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
 
   .fluid-image {
-    width: 90%;
+    width: 100%;
   }
-
-  /*.image:before {
-		-moz-transition: opacity 0.2s ease-in-out;
-		-webkit-transition: opacity 0.2s ease-in-out;
-		-ms-transition: opacity 0.2s ease-in-out;
-		transition: opacity 0.2s ease-in-out;
-		background: url("../images/overlay.png");
-		border-radius: 0.35em;
-		content: '';
-		display: block;
-		height: 100%;
-		left: 0;
-		opacity: 0.5;
-		position: absolute;
-		top: 0;
-		width: 100%;
-	}*/
 
   /* Section */
   header.resume h2 {
@@ -326,13 +309,48 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		font-size: 1.5em;
 	}
 
+  /* Button */
+  .button {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+		background-color: transparent;
+		border-radius: 0.35em;
+		border: solid 3px #a4b4c2;
+		color: #787878 !important;
+		cursor: pointer;
+		font-weight: 400;
+		height: 3.15em;
+		height: calc(2.75em + 6px);
+		line-height: 2.75em;
+		padding: 0 1.5em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+    margin-top: 1em;
+    display: block;
+		width: 100%;
+	}
+
+	.button:hover {
+		border-color: #47A1EF;
+		color: #47A1EF !important;
+	}
+
+  .button:active {
+		background-color: rgba(73, 191, 157, 0.1);
+		border-color: #47A1EF;
+		color: #47A1EF !important;
+	}
+
 
   /* Footer */
-  /*#footer {
-    position: absolute;
-    right: 0;
-    bottom: 100;
-  }*/
+
   #footer .icons {
     margin: 1em 0 0 0;
   }
@@ -407,8 +425,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   @media screen and (max-width: 736px) {
     .col-6 {
       width: 100%;
-      padding-right: 15vw;
-      padding-left: 15vw;
+      padding-right: 10vw;
+      padding-left: 10vw;
 
     }
 
