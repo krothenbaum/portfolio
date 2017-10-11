@@ -110,24 +110,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: 8.33333333%;
   }
 
-  /*@media (min-width: 640px){
-    .col-3 {
-      width: 25%;
-    }
-
-    .col-4 {
-      width: 33.33%;
-    }
-
-    .col-6 {
-      width: 50%;
-    }
-
-    .col-12 {
-      width: 100%;
-    }
-  }*/
-
   /* Basic */
   body  {
 		color: #a2a2a2;
@@ -425,9 +407,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   @media screen and (max-width: 736px) {
     .col-6 {
       width: 100%;
-      padding-right: 10vw;
-      padding-left: 10vw;
-
     }
 
     #header h1 {
@@ -440,7 +419,5 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   @media screen and (max-width: 480px) {
     .col-6 {
       width: 100%;
-      padding-left: 0;
-      padding-right: 0;
     }
   }
